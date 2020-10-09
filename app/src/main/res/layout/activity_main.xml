@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.savy.viewgroupeventdemo.ParentViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewgroup1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.savy.viewgroupeventdemo.ChildViewGroup
+        android:id="@+id/viewgroup2"
+        android:background="@color/colorAccent"
+        android:layout_width="300dp"
+        android:layout_height="300dp" >
+
+        <com.savy.viewgroupeventdemo.MyView
+            android:id="@+id/tv"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+    </com.savy.viewgroupeventdemo.ChildViewGroup>
+
+
+</com.savy.viewgroupeventdemo.ParentViewGroup>
